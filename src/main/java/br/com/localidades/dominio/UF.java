@@ -1,4 +1,4 @@
-package br.com.evoluum.dominio;
+package br.com.localidades.dominio;
 
 public class UF {
 
