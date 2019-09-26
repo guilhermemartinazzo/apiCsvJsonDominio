@@ -1,12 +1,10 @@
 package br.com.evoluum.dominio;
 
-import java.util.List;
-
 public class MesoRegiao {
 
 	private Number id;
 	private String nome;
-	private List<UF> UF;
+	private UF uf;
 	
 	public Number getId() {
 		return id;
@@ -17,17 +15,17 @@ public class MesoRegiao {
 	public String getNome() {
 		return nome;
 	}
+	public UF getUf() {
+		return uf;
+	}
+	public void setUf(UF uf) {
+		this.uf = uf;
+	}
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
 	public void setId(Number id) {
 		this.id = id;
-	}
-	public List<UF> getUF() {
-		return UF;
-	}
-	public void setUF(List<UF> uF) {
-		UF = uF;
 	}
 	
 }
